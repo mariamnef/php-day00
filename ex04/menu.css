@@ -1,0 +1,74 @@
+body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/2/9/3/1336592-chocolate-wallpapers-for-desktop-2560x1600-for-tablet.jpg');
+    text-align: center;
+}
+.container {
+    overflow: hidden;
+    background-color: #EBA7AC ;
+    font-family: Arial;
+    border-radius: 10px;
+}
+
+.container a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+
+}
+.container a, .dropdown .dropbtn {
+    padding: 15px 18px;
+    font-size: 16px;  
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color:pink;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 5px 5px 30px #000;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #FA86C4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #eee;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.quote{
+    font-size: 20px;
+    font-style: Bold;
+    color: #E11584;
+}
+
+#choco{
+    font-style: italic;
+    font-size: 100px;
+    color: #E11584;
+}

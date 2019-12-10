@@ -1,0 +1,128 @@
+body{
+    background-color: #505050;
+    font-color: black;
+}
+
+.mother{
+    width: 1200px;
+}
+.top{
+     width: 103%;
+    height: 9%;
+    /* margin-left: 10%;
+    margin-top: 2%; */
+	margin-top: 10px;
+	margin-bottom: 20px;
+    background-color: #909090; 
+}
+
+.logo {
+	float: left;
+    margin-left: 10px;
+}
+.logo img{
+    float: left;
+    margin-top: 18px;
+    height:90%;
+    width:40%;
+}
+.close img {
+    margin-left: 1204px;
+    margin-top: -20px;
+}
+
+.loupe img {
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 20px;
+    margin-bottom: -42px;
+}
+
+.reload img{
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-top: -124px;
+    margin-right: 6px;
+}
+
+.left, .right{
+	width: 150px;
+	height: 350px;
+    background-color: #909090;
+}
+
+.left {
+	float: left;
+	margin-left: 20px;
+}
+
+.right {
+	float: right;
+	margin-right: 20px;
+}
+
+.cluster {
+	width: 800px;
+	height: 450px;
+	border: 8px solid #909090;
+}
+
+.top, .left, .right, .cluster, .bottom{
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+li img {
+    width: 60px;
+}
+
+.brick {
+	background-image: url(resources/brick.jpg);
+	background-position: left bottom;
+	background-repeat: repeat;
+	height: 60px;
+	margin: 5px;
+}
+
+.bottom {
+    padding: 5px 25px 30px 10px;
+	position: absolute;
+	background-color: #87FE8F;
+	width: 400px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+p {
+    text-align: left;
+}
+
+.botton{
+    height: 22px;
+    margin-left: 10px;
+}
+.input{
+    height: 15px;
+}
+
+.eye{
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+.ikhan{
+    font-size: 30px;
+}
+
+.computer{
+    text-shadow: 4px 4px 3px red;
+}
